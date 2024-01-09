@@ -1,0 +1,123 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #1F2937; /* Default text color set to dark blue */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #1F2937; /* Dark background color for header */
+}
+
+.header div, .nav-link {
+  color: #F9FAF8; /* Header text color */
+}
+
+.nav-link {
+  margin-right: 10px;
+  font-size: 18px; /* Font size for header link text */
+}
+
+.main-title {
+  text-align: center;
+  padding: 20px;
+  background-color: #1F2937; /* Dark background color for hero section */
+  color: #F9FAF8; /* Text color for hero section */
+}
+
+.main-title h1 {
+  font-size: 48px; /* Font size for hero main text */
+  font-weight: 800; /* Extra-bold font weight */
+}
+
+.main-title p {
+  font-size: 18px; /* Font size for hero secondary text */
+}
+
+.signup-btn {
+  display: block;
+  width: max-content;
+  padding: 10px;
+  margin: 10px auto;
+  background-color: #3882F6; /* Button color */
+  color: #F9FAF8; /* Button text color */
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 800; /* Extra-bold font weight for button text */
+}
+
+.info-section {
+  padding: 20px;
+  background-color: #eee; /* Lighter background for the info section */
+  text-align: center;
+}
+
+.info-section h2 {
+  font-size: 36px; /* Font size for information header text */
+  font-weight: 800; /* Extra-bold font weight */
+  color: #1F2937; /* Dark blue text color */
+}
+
+.info-box {
+  border: 2px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.quote {
+  padding: 20px;
+  background-color: #E5E7EB; /* Light purple background color for quote section */
+  text-align: center;
+  font-style: italic; /* Italic font style for quote */
+  font-weight: 300; /* Light font weight for quote */
+  font-size: 36px; /* Font size for quote text */
+  color: #1F2937; /* Dark blue text color */
+}
+
+.call-to-action {
+  background-color: #3882F6; /* Call to action background color */
+  color: #F9FAF8; /* Text color for call to action */
+  padding: 20px;
+  text-align: center;
+  font-weight: 800; /* Extra-bold font weight */
+}
+
+/* Styles for header logo */
+.header-logo {
+  font-size: 24px; /* Font size for header logo text */
+  color: #F9FAF8; /* Color for header logo text */
+}
+
+
+
+/* Styles for footer */
+.footer {
+  background-color: #1F2937; /* Dark background color for footer */
+  color: #F9FAF8; /* Light text color for contrast */
+  padding: 20px;
+  text-align: center;
+}
+
+
+/* Style for hero image */
+.hero-image {
+  width: 100%;
+  height: auto;
+  max-width: 600px; /* Adjust as needed */
+  display: block;
+  margin: 20px auto; /* Centers the image */
+}
+
+/* Style for info section images */
+.info-image {
+  width: 100%;
+  height: auto;
+  max-width: 350px; /* Adjust as needed */
+  display: block;
+  margin: 10px auto; /* Centers the image */
+}
